@@ -153,10 +153,5 @@ Pesquise por `service-A` ou `service-B` para ver o fluxo de requisições entre 
 
 ---
 
-## 📄 **Licença**
-Este projeto é open-source e está sob a licença MIT.
 
----
-
-Feito com ❤️ por [Seu Nome] 🚀
 
