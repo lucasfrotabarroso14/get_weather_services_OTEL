@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  zipkin:
+    image: openzipkin/zipkin
+    container_name: zipkin
+    ports:
+      - "9411:9411"
+
+  service-b:
+    build:
+      context: ./service_B
+    container_name: service-b
+    ports:
+      - "8091:8091"
+    depends_on:
+      - zipkin
+
+  service-a:
+    build:
+      context: ./service_A
+    container_name: service-a
+    ports:
+      - "8010:8010"
+    depends_on:
+      - service-b
+      - zipkin

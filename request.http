@@ -1,0 +1,10 @@
+### REQ DE TESTE
+
+POST http://localhost:8010/service-A
+Content-Type: application/json
+
+{
+
+  "cep": "60135280"
+
+}
