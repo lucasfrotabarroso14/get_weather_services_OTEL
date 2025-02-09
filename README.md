@@ -11,7 +11,7 @@ Este projeto consiste em dois serviços escritos em Go que trabalham juntos para
 ---
 
 ## 🛠 Tecnologias Utilizadas
-- **Go** 1.20+
+- **Go** 1.23
 - **Docker & Docker Compose**
 - **OpenTelemetry** (OTEL)
 - **Zipkin**
